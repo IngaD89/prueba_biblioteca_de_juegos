@@ -2,13 +2,11 @@ package org.example.controller;
 
 import org.example.exception.GameAlreadyExistsException;
 import org.example.exception.GameNotFoundException;
-import org.example.exception.GameTypeNotFoundException;
 import org.example.models.*;
 
 import java.util.ArrayList;
 import java.util.List;
 import java.util.Scanner;
-import java.util.stream.Collectors;
 
 public class StockManager {
 
